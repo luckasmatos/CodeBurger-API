@@ -2,7 +2,7 @@ import express from 'express'
 import routes from './routes.js'
 import cors from 'cors'
 import { resolve } from 'path'
-import './database'
+import './database/index.js'
 
 class App {
     constructor() {
