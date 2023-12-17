@@ -6,7 +6,7 @@ import UserController from "./app/controllers/UserController.js";
 import SessionController from "./app/controllers/SessionController.js";
 import ProductController from "./app/controllers/ProductController.js";
 import CategoryController from "./app/controllers/CategoryController.js";
-import authMiddleware from "./app/middleware/auth.js"; // importando o Middleware de autenticação
+import authMiddleware from "./app/middlewares/auth.js"; // importando o Middleware de autenticação
 import OrderController from "./app/controllers/OrderController.js";
 
 const upload = multer(multerConfig) // criamos a variável com o Multer + config que criamos ao usar o Multer e vamos usa-la na rota dos produtos
