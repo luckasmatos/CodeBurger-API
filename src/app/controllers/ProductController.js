@@ -1,5 +1,5 @@
 import * as Yup from 'yup'
-import Product from '../models/Product.js'
+import Product from '../models/Products.js'
 import Category from '../models/Category.js'
 import User from '../models/User.js'
 import { where } from 'sequelize'
